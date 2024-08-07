@@ -8,6 +8,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.client.RestTemplate;
 
+import com.example.service.AccountService;
+
 import static org.springframework.boot.SpringApplication.run;
 
 /**
@@ -25,5 +27,6 @@ public class SocialMediaApp {
      */
     public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(SocialMediaApp.class, args);
+       
     }
 }
